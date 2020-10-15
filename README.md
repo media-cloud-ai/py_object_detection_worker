@@ -3,20 +3,20 @@ Detection of objects in video using OpenCV Yolo
 
 ## Build docker image locally
 
-```
+```bash
 docker build -t mediacloudai/py_object_detection_worker .
 ```
 
 ## Run worker locally
 
 Export variables to setup Source and Destination filenames:
-```
+```bash
 export SOURCE_FOLDER=replace_with_folder_with_the_source_filename
 export SOURCE_PATH=replace_with_input_filename
 export DESTINATION_PATH=replace_with_output_filename
 ```
 
-```
+```bash
 docker run --rm \
   -v `pwd`/examples:/examples \
   -e RUST_LOG=debug \
