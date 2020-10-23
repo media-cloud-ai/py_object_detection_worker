@@ -1,7 +1,7 @@
-# py_object_detection_worker
-Detection of objects in video using OpenCV Yolo
+# Object Detection Worker
+Detection of objects in video using OpenCV Yolo v3.
 
-## Build docker image locally
+## Build docker image locally (optional)
 
 ```bash
 docker build -t mediacloudai/py_object_detection_worker .
