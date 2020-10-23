@@ -1,4 +1,4 @@
-FROM mediacloudai/py_mcai_worker_sdk:v0.11.7-media
+FROM mediacloudai/py_mcai_worker_sdk:v0.11.8-media
 
 WORKDIR /sources
 
